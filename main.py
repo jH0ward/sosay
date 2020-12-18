@@ -28,6 +28,7 @@ def sosay(func):
 def a_bad_func():
     df = pd.DataFrame(1)
 
+
 @sosay
 def a_terrible_func():
     df = '9' / '42'
